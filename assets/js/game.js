@@ -130,7 +130,7 @@ var endGame = function() {
   }
 };
 
-// go to shop between battles function
+// go to shop between battles functions
 var shop = function() {
   // ask player what they'd like to do
   var shopOptionPrompt = window.prompt(
@@ -169,12 +169,12 @@ var shop = function() {
     case 'leave':
       window.alert('Leaving the store.');
 
-      // do nothing, so function will end
+      // do nothing, so function will ends
       break;
     default:
       window.alert('You did not pick a valid option. Try again.');
 
-      // call shop() again to force player to pick a valid option
+      // call shop() again to force player to pick a valid options
       shop();
       break;
   }
